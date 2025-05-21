@@ -13,5 +13,6 @@ class StringProcessorTest {
         assertEquals("aabad", processor.process("aabcccbbbad"));
         assertEquals("aabad", processor.process("aabccccad"));
         assertEquals("aabccad", processor.process("aabccad"));
+        assertEquals("", processor.process("aaa"));
     }
 }
